@@ -1,0 +1,11 @@
+For checkig git version:
+
+$ git --version
+
+for checking the status of the git project
+
+$ git status
+
+Intialize the git repo
+
+$ git init
