@@ -40,6 +40,24 @@ Git pull : pull repo from master copy
 
 $ git branch origin main
 
+if any file is added to staging area, we can track the changes with the commands:
+
+$ git diff filename.ext 
+
+$ git diff --staged filename.ext
+
+to revert the changes to previous version
+
+for that we need to unstaged the files
+
+$ git reset filename.ext 
+
+then revert the chages of the files 
+
+$ get checkout filename.ext
+
+
+
 
 
 
