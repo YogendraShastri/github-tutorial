@@ -14,6 +14,10 @@ put untracked files into staging area
 
 $ git add .
 
+git add -A = stages all the files
+git add .  = stages new and modified files
+git add -u = stages modified and deleted files
+
 commit the changes
 
 $ git commit -m "message here"
@@ -55,6 +59,27 @@ $ git reset filename.ext
 then revert the chages of the files 
 
 $ get checkout filename.ext
+
+Revert changes to all the files.
+
+$ git checkout .
+
+clone an existing repository
+
+$ git clone ssh-link-of-repo
+
+$ git clone ssh-link-of-repo .   (to clone without the actual folder)
+
+ignore some file : Dont want to track them
+
+$ touch .gitignore
+
+$ vi gitignore
+mention name on the gitignore file 
+
+ignore some file : earliar you were tracking now you dont want
+
+$ git rm --cached filename
 
 
 
